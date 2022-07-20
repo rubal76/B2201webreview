@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="pageobjectstests.FormAuthenticationPageTest">
+        <methods>
+          <include name="formAuthenticationLoginTest"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="cleanUP"/>
+          <include name="extentSetup"/>
+          <include name="generateReport"/>
+          <include name="afterEachTestMethod"/>
+          <include name="initializeElements"/>
+        </methods>
+      </class> <!-- pageobjectstests.FormAuthenticationPageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

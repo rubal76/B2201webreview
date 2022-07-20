@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Test" parallel="false" >
+    <test name = "HerokuApp Home">
+        <classes>
+            <class name="pageobjectstests.CheckboxesPageTest"/>
+           <class name="pageobjectstests.ContextMenuPageTest"/>
+            <class name="pageobjectstests.DropDownPageTest"/>
+            <class name="pageobjectstests.FileUploadPageTest"/>
+            <class name="pageobjectstests.HorizontalSliderPageTest"/>
+            <class name="pageobjectstests.HoversPageTest"/>
+            <class name="pageobjectstests.FormAuthenticationPageTest"/>
+        </classes>
+    </test>
+
+</suite>

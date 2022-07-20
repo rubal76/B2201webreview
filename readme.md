@@ -1,0 +1,1 @@
+An attempt to automate HerokuApp using a page object model pattern framework, Maven build tool, Selenium and TestNG. 
